@@ -4,7 +4,21 @@
 <h1 style="font-family:verdana">Coming Soon</h1>
 <div style="background-color:black;color:white;padding:20px;font-family:verdana;">
   <p><b>TITLE:</b>Carved Guts On Camera</p>
-  <p><b>TYPE:</b>Film</p>
-  <p><b>GENRE:</b>Horror/Extreme</p>
-  <p>A film about a fellow who makes <i>films</i></p>
-  <p><b>See trailer <a href="trailer1">here</a></b></p>
+  <script type="text/javascript">
+function toggle(obj) {
+          var obj=document.getElementById(obj);
+          if (obj.style.display == "block") obj.style.display = "none";
+          else obj.style.display = "block";
+}
+</script>
+ 
+<a href="javascript: void(0);" onClick="toggle('q1')">
+MORE INFO
+</a>
+<div id="q1" style="display:none;">
+<p><b>TYPE:</b>Film</p>
+<p><b>GENRE:</b>Horror/Extreme</p>
+<p>A film about a fellow who makes <i>films</i>.</p>
+<p><b>See trailer <a href="trailer1">here</a></b></p>
+</div>
+
